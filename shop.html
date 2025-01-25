@@ -1,0 +1,104 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CARLITO: Shop</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+  
+</head>
+<style>
+  .navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: 42px;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar a {
+        color: rgb(255, 255, 255);
+        padding: 10px 10px;
+        display: block;
+        float: right;
+        margin-right: 6px;
+        font-size: 16px;
+        text-decoration: none;
+}
+
+
+.navbar a:hover{
+        color: rgb(152, 114, 7);
+        text-decoration: underline;
+        border: #f1f1f1;
+        border-radius: 1px;
+}
+
+.footer{
+    position: relative;
+    left:0;
+    bottom:0;
+    height: 42px;
+    width:100%;
+    padding-left:20px;
+    background-color: Black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+</style>
+
+<body style="margin:0px;">
+  <div class="navbar" style="background-color: black; "> 
+    <img src="favicon-32x32.png" style="size: 10px 10px;">    
+    <h1 style="background-color: black; color: white; padding: 22px; position: fixed; ">the DON CARLITO magazine</h1>
+    <a href="#forc">Aide</a>
+    <a href="#logo">Gallerie</a>
+    <a href="#rien">Partenaires</a>
+    <a href="shop.html">Shop</a>
+    <a href="subscribe.html">Subscribe</a>
+    <a href="index.html">Magazine</a>
+  </div>
+  <hr style="margin-top: 180px; margin-bottom: 80px;">
+</body>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="UZ4MWGK2WTSLJ" />
+  <table>
+    <tr>
+      <td>
+        <input type="hidden" name="on0" value="Choisissez votre type de compte;"/>
+        Choisissez votre type de compte;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <select name="os0">
+          <option value="Standard">
+            Standard 3,00 $ CAD - mois
+          </option>
+          <option value="Premium ">
+            Premium  5,00 $ CAD - mois
+          </option>
+        </select>
+      </td>
+    </tr>
+  </table>
+  <input type="hidden" name="currency_code" value="CAD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal, le réflexe sécurité pour payer en ligne" alt="S'abonner" />
+</form>
+
+<div class="footer">
+    <a href="index.html" style="color:white">©2025 the DON CARLITO magazine</a>
+    <a href="index.html" style="color:white">subscribe</a>
+    <a href="index.html" style="color:white">associates</a>
+    <a href="index.html" style="color:white">apps</a>
+    <a href="index.html" style="color:white">career</a>
+    <a href="index.html" style="color:white">terms</a>
+</div>
